@@ -1,7 +1,8 @@
-📈 MLPortfolioTrader
+
+# 📈 MLPortfolioTrader
 MLPortfolioTrader is a Python-based quantitative trading framework that uses machine learning (XGBoost) to predict short-term momentum and dynamically optimize a portfolio of stocks based on confidence thresholds and risk constraints such as maximum drawdown.
 
-🚀 Features
+## 🚀 Features
 Machine Learning Prediction: Predicts next-day price movement using XGBoost and a rich feature set including momentum, volatility, and beta.
 
 Feature Engineering: Computes 12+ features per stock including moving averages, volume shifts, and market-relative metrics.
@@ -12,7 +13,7 @@ Backtesting: Simulates returns vs. a benchmark over time and visualizes portfoli
 
 Modular Design: Easy to adapt for different tickers, timeframes, or classification models.
 
-🧠 Model Architecture
+## 🧠 Model Architecture
 Target: Predicts whether the next day's return is positive.
 
 Model: XGBClassifier
@@ -21,7 +22,7 @@ Thresholding: Trades only when predicted confidence exceeds a user-defined thres
 
 Portfolio Construction: Optimizes for maximum Sharpe ratio while maintaining a max drawdown ceiling (default: 20%).
 
-📊 Key Metrics Computed
+## 📊 Key Metrics Computed
 Sharpe Ratio (used in optimization)
 
 Maximum Drawdown
@@ -32,7 +33,7 @@ Cumulative Returns (plotted)
 
 Dynamic Portfolio Allocation based on model confidence
 
-📦 Installation & Requirements
+## 📦 Installation & Requirements
 bash
 Copy
 Edit
